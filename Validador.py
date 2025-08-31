@@ -13,10 +13,13 @@ elif cpf[3] == cpf[4] == cpf[5]:
         print("CPF inválido!")
 
 elif cpf[6] == cpf[7] == [8]:
-    print("CPF inválido!")
+        print("CPF inválido!")
+
+elif len(cpf) == 10:
+        print("CPF válido!"
 
 else:
-   print("CPF válido!")
+        print("CPF válido!")
 
 # Descobre onde o usuário mora comm base no úlltimo número do CPF
 
