@@ -16,7 +16,7 @@ elif cpf[6] == cpf[7] == [8]:
         print("CPF inválido!")
 
 elif len(cpf) == 10:
-        print("CPF válido!"
+        print("CPF válido!")
 
 else:
         print("CPF válido!")
