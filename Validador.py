@@ -24,14 +24,14 @@ else:
 # Descobre onde o usuário mora comm base no úlltimo número do CPF
 
 if cpf[10] == "1":
-    moradia = str(input("Você é mora em: Distrito Federal (DF) ou Goiás (GO) ou Mato Grosso do Sul (MS) ou Mato Grosso (MT) ou Tocantins (TO)?"))
+    moradia = str(input("Você mora em: Distrito Federal (DF) ou Goiás (GO) ou Mato Grosso do Sul (MS) ou Mato Grosso (MT) ou Tocantins (TO)?"))
     if moradia == "MT" or "MS" or "GO" or "DF" or "TO":
         True
     else:
          print("Utilize apenas a sigla do estado correspondente, e em maiúsculo!")
 
 elif cpf[10] == "2":
-    moradia = str(input("Você é mora em: Acre (AC) ou Amazonas (AM) ou Amapá (AP) ou Pará (PA) ou Rondônia (RO) ou Roraima (RR)?"))
+    moradia = str(input("Você mora em: Acre (AC) ou Amazonas (AM) ou Amapá (AP) ou Pará (PA) ou Rondônia (RO) ou Roraima (RR)?"))
     if moradia == "AC" or "AM" or "AP" or "PA" or "RO" or "RR":
         True
     else:
