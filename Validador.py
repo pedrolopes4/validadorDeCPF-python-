@@ -2,7 +2,7 @@ cpf = input("escreva seu CPF:") # Recebe o CPF
 
 cpf = cpf.replace('.', '')  # Remove todos os pontos
 
-cpf = cpf.replace('-', '')  # Remove todos o traço
+cpf = cpf.replace('-', '')  # Remove o traço
 
 # Valida o CPF
 
